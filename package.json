@@ -1,0 +1,34 @@
+{
+  "name": "bottie",
+  "version": "0.0.1",
+  "description": "Simple BotKit bot with NLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/bottie.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "botkit",
+    "nlp",
+    "ai",
+    "natural",
+    "language",
+    "andrew",
+    "templeton"
+  ],
+  "author": "Andrew Templeton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/bottie/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/bottie#readme",
+  "dependencies": {
+    "botkit": "0.0.5",
+    "natural": "^0.2.1"
+  }
+}
