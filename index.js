@@ -48,6 +48,11 @@ Bottie.Ears
     } else {
       speech.reply(message, 'Hmm... I couldn\'t tell what you said...');
       speech.reply(message, '```\n' + JSON.stringify(interpretation) + '\n```');
+
+      // append.write [message.text] ---> to a file
+      fs.appendFile('phrase-errors.txt', '\nChannel: ' + message.channel + ' User:'+ message.user + ' - ' + message.text, function (err) {
+        console.log('\n\tBrain Err: Appending phrase for review\n\t\t' + message.text + '\n');
+        });
     }
   });
 
