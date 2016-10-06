@@ -18,6 +18,14 @@ Brain.prototype.teach = function(label, phrases) {
 
 Brain.prototype.think = function() {
   this.classifier.train();
+
+  // save the classifier for later use
+  var aPath = './src/classifier.json';
+  this.classifier.save(aPath, function(err, classifier) {
+    // the classifier is saved to the classifier.json file!
+    console.log('Writing: Creating a Classifier file in SRC.');
+    });
+
   return this;
 };
 
