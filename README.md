@@ -6,5 +6,5 @@ Please see the blog post for documentation: http://blog.templeton.host/self-trai
 
 Extended to include sentiment so install the NPM: 
 
-  >**npm install sentiment**
+  **npm install sentiment**
 
