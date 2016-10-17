@@ -1,5 +1,6 @@
 
 var NLP = require('natural');
+var sentiment = require('sentiment');
 
 module.exports = Brain; 
 
@@ -40,6 +41,15 @@ Brain.prototype.interpret = function(phrase) {
 
 Brain.prototype.invoke = function(skill, info, bot, message) {
   var skillCode;
+  
+  // check the sentiment if it's one way or the other... console it!
+  let r1 = sentiment(message.text);
+  if (r1.score != 0) {
+    console.log('\n\tSentiment value: ');
+    console.dir(r1); 
+    console.log('\n');
+    }  
+  
   console.log('Grabbing code for skill: ' + skill);
   try {
     skillCode = require('../skills/' + skill);
