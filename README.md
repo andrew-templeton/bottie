@@ -11,7 +11,7 @@
 
 **Step 2** - Download the bottie code to your computer
 
-If you're here on **GitHub**, you already know what to do. Navigate to the downloaded project folder (on your computer) and run the the following commands *[no dollar sign is required, used for reference only]*:
+If you're here on **GitHub**, you already know what to do. Navigate to the downloaded project folder *(on your computer)* and run the the following commands *[no dollar sign is required, used for reference only]*:
 
 - **RUN** - $ npm install;
 - **RUN** - $ export SLACK_TOKEN='*COPIED_TOKEN from your Slack-Bot API*';
