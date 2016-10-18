@@ -14,5 +14,25 @@ module.exports = {
     'lorem ipsum dolor amet is what you should say back to me',
     'be a good bot and parrot benf fodjsi bdfsjdhf bazz back to me',
     'copy cat behf sdkjhfg peiurf fdlkgj kwjhe foufg'
+  ],
+    "CatFacts": [
+    "give me a cat fact",
+    "tell me a cat fact",
+    "tell me something about cats",
+    "cat fact meow",
+    "meow meow"
+  ],
+    Uptime: [
+    'uptime',
+    'are you alive?',
+    'are you up?',
+    'status',
+    'current status',
+    'who are you?',
+    'what are you?',
+    'are you alive',
+    'are you up',
+    'who are you',
+    'what are you'    
   ]
 };

@@ -1,7 +1,7 @@
 {
   "name": "bottie",
-  "version": "0.0.1",
-  "description": "Simple BotKit bot with NLP",
+  "version": "0.0.2",
+  "description": "Simple BotKit bot with NLP extended with sentiment and more",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +19,10 @@
     "natural",
     "language",
     "andrew",
-    "templeton"
+    "templeton",
+    "vveerrgg",
   ],
-  "author": "Andrew Templeton",
+  "author": "Andrew Templeton and Vveerrgg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andrew-templeton/bottie/issues"
@@ -29,6 +30,9 @@
   "homepage": "https://github.com/andrew-templeton/bottie#readme",
   "dependencies": {
     "botkit": "0.0.5",
-    "natural": "^0.2.1"
+    "elizabot": "0.0.2",
+    "natural": "^0.2.1",
+    "request": "2.75.0",
+    "sentiment": "2.1.0"
   }
 }

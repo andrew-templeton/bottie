@@ -15,7 +15,11 @@ function Ears(token) {
     'direct_message',
     'mention'
   ];
-  this.token = token;
+  
+  // if we haven't defined a token, get the token from the session variable.
+  if (Bot.token == undefined) {
+    this.token = token;
+    }
 }
 
 Ears.prototype.listen = function() {
