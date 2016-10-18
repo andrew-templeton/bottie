@@ -1,5 +1,6 @@
 
 var NLP = require('natural');
+var fs = require('fs');
 var sentiment = require('sentiment');
 
 module.exports = Brain; 
