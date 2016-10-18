@@ -23,4 +23,9 @@ If you're here on **GitHub**, you already know what to do. Navigate to the downl
 - **RUN** - `$ node index`
 
 
-To learn how to interact and use the Bot, read Andrews blog post. It's a great starting point for those looking to build / extend a bot to fit their project needs.  Examples of how to use sentiment and make JSON calls have been included in this example. You might also want to look at Adam-nnl's bot (https://github.com/adam-nnl/owb-bot/) for other ideas on how to extend bottie.
+<br><br>
+##**Step 3** - Learn and build on the bottie code
+To learn how to interact and use the Bot, read Andrews blog post. It's a great starting point for those looking to build / extend a bot to fit their project needs.  
+
+
+<br>**Bonus points:**Examples of how to use sentiment and make JSON calls have been included in this example. You might also want to look at Adam-nnl's bot (https://github.com/adam-nnl/owb-bot/) for other ideas on how to extend bottie.
