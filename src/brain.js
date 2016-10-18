@@ -43,14 +43,14 @@ Brain.prototype.interpret = function(phrase) {
 Brain.prototype.invoke = function(skill, info, bot, message) {
   var skillCode;
   
-  // check the sentiment if it's one way or the other... console it!
-  let r1 = sentiment(message.text);
-  if (r1.score != 0) {
+  // check the sentiment 
+  let senti = sentiment(message.text);
+  if (senti.score != 0) {
     console.log('\n\tSentiment value: ');
-    console.dir(r1); 
+    console.dir(senti); 
     console.log('\n');
-    }  
-  
+    }
+
   console.log('Grabbing code for skill: ' + skill);
   try {
     skillCode = require('../skills/' + skill);
@@ -58,7 +58,7 @@ Brain.prototype.invoke = function(skill, info, bot, message) {
     throw new Error('The invoked skill doesn\'t exist!');
   }
   console.log('Running skill code for ' + skill + '...');
-  skillCode(skill, info, bot, message);
+  skillCode(skill, info, bot, message, senti);
   return this;
 };
 
