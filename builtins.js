@@ -15,6 +15,13 @@ module.exports = {
     'be a good bot and parrot benf fodjsi bdfsjdhf bazz back to me',
     'copy cat behf sdkjhfg peiurf fdlkgj kwjhe foufg'
   ],
+    "CatFacts": [
+    "give me a cat fact",
+    "tell me a cat fact",
+    "tell me something about cats",
+    "cat fact meow",
+    "meow meow"
+  ],
     Uptime: [
     'uptime',
     'are you alive?',
