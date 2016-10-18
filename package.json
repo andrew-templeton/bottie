@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vveerrgg/bottie---extended.git"
+    "url": "git+https://github.com/andrew-templeton/bottie.git.git"
   },
   "keywords": [
     "slack",
@@ -25,9 +25,9 @@
   "author": "Andrew Templeton and Vveerrgg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vveerrgg/bottie---extended/issues"
+    "url": "https://github.com/andrew-templeton/bottie/issues"
   },
-  "homepage": "https://github.com/vveerrgg/bottie---extended#readme",
+  "homepage": "https://github.com/andrew-templeton/bottie#readme",
   "dependencies": {
     "botkit": "0.0.5",
     "elizabot": "0.0.2",
