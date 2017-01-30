@@ -1,4 +1,4 @@
-
+"use strict";
 
 var BotKit = require('botkit');
 

@@ -1,3 +1,4 @@
+"use strict";
 
 var NLP = require('natural');
 var fs = require('fs');
